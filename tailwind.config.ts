@@ -8,9 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Poppins: ["Poppins", "sans-serif"],
+        kanit: ["Kanit", "sans-serif"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        royalBlue: "var(--royalblue)",
+        orangyRed: "var(--OrangyRed)",
+        lightgray: "var(--lightgray)",
       },
     },
   },
