@@ -10,4 +10,4 @@ const MatchStats: React.FC<StatProps> = ({ label, count }) => {
     </div>
   );
 };
-export default MatchStats
+export default MatchStats;
